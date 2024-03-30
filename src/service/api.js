@@ -1,22 +1,22 @@
 import axios from 'axios';
 
 export const apiTesteApi = axios.create({
-    baseURL: 'http://localhost:8080/teste'
+    baseURL: 'https://locadora-pr6k.onrender.com/teste'
 });
 
 export const apiProfessor = axios.create({
-    baseURL: 'http://localhost:8080/professor'
+    baseURL: 'https://locadora-pr6k.onrender.com/professor'
 });
 
 
 export const apiAtendente = axios.create({
-    baseURL: 'http://localhost:8080/atendente'
+    baseURL: 'https://locadora-pr6k.onrender.com/atendente'
 });
 
 export const apiAgendamento = axios.create({
-    baseURL: 'http://localhost:8080/agendamento'
+    baseURL: 'https://locadora-pr6k.onrender.com/agendamento'
 });
 
 export const apiItem = axios.create({
-    baseURL: 'http://localhost:8080/item'
+    baseURL: 'https://locadora-pr6k.onrender.com/item'
 });
